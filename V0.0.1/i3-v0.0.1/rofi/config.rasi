@@ -1,0 +1,6 @@
+configuration {
+    emoji-lookup: "~/.config/rofi/emoji/emojis.txt";
+    emoji-format: "{emoji}";
+    emoji-font: "Noto Color Emoji";
+}
+

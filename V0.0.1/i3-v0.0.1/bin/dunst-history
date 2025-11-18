@@ -1,0 +1,6 @@
+#!/bin/bash
+
+logfile="$HOME/.cache/my_dunst_history.log"
+touch "$logfile"
+
+tac "$logfile" | rofi -dmenu -p "Notifications"

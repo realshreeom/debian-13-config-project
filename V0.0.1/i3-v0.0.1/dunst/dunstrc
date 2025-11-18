@@ -1,0 +1,48 @@
+[global]
+debug = true
+
+enable_logging = true
+verbosity = debug
+log_level = debug
+history = true
+logfile = "/home/shree/.cache/dunst.log"
+
+
+# position of the popup
+geometry = "300x80-20+40"
+origin = top-right
+
+# font
+font = JetBrainsMono Nerd Font 11
+
+# transparency
+frame_width = 0
+separator_height = 2
+transparency = 0
+
+# padding & appearance
+padding = 12
+horizontal_padding = 12
+line_height = 2
+
+# logging enabled for notification history
+enable_logging = true
+log_level = info
+verbosity = message
+
+# colors (tokyo night)
+background = "#1a1b26"
+foreground = "#c0caf5"
+highlight = "#7aa2f7"
+
+[urgency_low]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+[urgency_normal]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+[urgency_critical]
+background = "#f7768e"
+foreground = "#1a1b26"

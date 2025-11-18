@@ -1,0 +1,13 @@
+#!/bin/bash
+notify_log="$HOME/.cache/dunst.log"
+touch "$notify_log"
+tac "$notify_log" | rofi -dmenu -p "Notifications"
+
+#!/bin/bash
+log="$HOME/.cache/dunst.log"
+
+if [[ -f "$log" ]]; then
+    tac "$log" | rofi -dmenu -p "Notifications"
+else
+    echo "No notifications logged" | rofi -dmenu -p "Error"
+fi

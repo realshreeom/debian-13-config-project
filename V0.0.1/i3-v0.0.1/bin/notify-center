@@ -1,0 +1,4 @@
+#!/bin/bash
+logfile="$HOME/.cache/nbs_notify.log"
+touch "$logfile"
+tac "$logfile" | rofi -dmenu -p "Notifications"
